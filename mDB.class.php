@@ -20,7 +20,7 @@ class Database
   }
 
   public function __destruct() {
-    $this->db->close();
+    //$this->db->close();
   }
 
   /* 
